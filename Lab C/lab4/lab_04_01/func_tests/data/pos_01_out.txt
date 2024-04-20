@@ -1,0 +1,5 @@
+cmp_strpbrk: failed 0 times
+cmp_strspn: failed 0 times
+cmp_strcspn: failed 0 times
+cmp_strchr: failed 0 times
+cmp_strrchr: failed 0 times

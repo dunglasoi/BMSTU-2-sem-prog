@@ -1,0 +1,8 @@
+hello
+world
+100
+10
+hello
+world
+1
+1

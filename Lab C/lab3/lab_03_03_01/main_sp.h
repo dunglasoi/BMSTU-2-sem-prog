@@ -1,0 +1,12 @@
+#ifndef MAIN_SP_H
+#define MAIN_SP_H
+
+#include <stdio.h>
+#include "const.h"
+
+int size_matrix(size_t *row, size_t *col);
+int input_matrix(int a[N_MAX][N_MAX], size_t row, size_t col);
+int sort(size_t row, size_t col, int a[N_MAX][N_MAX]);
+void result(int a[N_MAX][N_MAX], size_t row, size_t col);
+
+#endif

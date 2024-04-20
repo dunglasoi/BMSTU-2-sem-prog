@@ -1,0 +1,1 @@
+./func_tests/data/err_02.txt

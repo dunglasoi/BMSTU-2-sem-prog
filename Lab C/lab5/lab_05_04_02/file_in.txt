@@ -1,0 +1,2 @@
+ajkdjasjd
+fb ./func_tests/data/test.bin hello

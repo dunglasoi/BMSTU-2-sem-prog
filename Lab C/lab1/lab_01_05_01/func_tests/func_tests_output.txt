@@ -1,0 +1,8 @@
+test_pos_01: PASSED
+test_pos_02: PASSED
+test_neg_01: PASSED
+test_neg_02: PASSED
+test_neg_03: PASSED
+test_neg_04: PASSED
+test_neg_05: PASSED
+Total failed tests: 0

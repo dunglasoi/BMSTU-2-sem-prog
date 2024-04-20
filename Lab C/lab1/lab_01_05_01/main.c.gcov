@@ -1,0 +1,41 @@
+        -:    0:Source:main.c
+        -:    0:Graph:main.gcno
+        -:    0:Data:main.gcda
+        -:    0:Runs:7
+        -:    1:#include<stdio.h>
+        -:    2:#include<stdlib.h>
+        -:    3:
+        2:    4:int divide(int a, int d)
+        -:    5:{
+        2:    6:    int quotient = 0;
+       10:    7:    while (a >= d)
+        -:    8:    {
+        8:    9:        a -= d;
+        8:   10:        ++quotient;
+        -:   11:    }
+        2:   12:    return quotient;
+        -:   13:}
+        -:   14:
+        7:   15:int main(void)
+        -:   16:{
+        -:   17:    int a, d, q;
+        7:   18:    int rc = scanf("%d %d", &a, &d);
+        7:   19:    if (rc != 2)
+        -:   20:    {
+        2:   21:        printf("Invalid input!");
+        2:   22:        return -1;
+        -:   23:    }
+        5:   24:    if ((a > 0) && (d > 0))
+        -:   25:    {
+        2:   26:        q = divide(a, d);
+        2:   27:        printf("Quotient: %d\n", q);
+        2:   28:        printf("Remainder: %d", a - d * q);
+        2:   29:        return 0;
+        -:   30:    }
+        -:   31:    else
+        -:   32:    {
+        3:   33:        printf("Invalid input!");
+        3:   34:        return -1;
+        -:   35:    }
+        -:   36:}
+        -:   37:
